@@ -98,3 +98,10 @@ for i in range(0, iterations):
 # Matched Inliners
 matched_inliers = features[required_idx, :]
 print("Fundamental Matrix : ", Fundamental_matrix)
+
+# Calculating Essential Matrix
+E = cam1.T.dot(F).dot(cam0)
+U,s,V = np.linalg.svd(E)
+s = [1,1,0]
+essential_matrix = np.dot(U,np.dot(np.diag(s),V))
+print("Essential Matrix: ", essential_matrix)
