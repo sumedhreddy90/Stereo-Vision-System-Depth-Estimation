@@ -47,4 +47,3 @@ Estimated translation:\  [0.99962734 0.01377738 0.02356598]
 ## Depth Image Processing:
 <img width="385" alt="depth_2" src="https://user-images.githubusercontent.com/24978535/163831821-7cdc0201-79c3-4a99-b60c-c4e3bb579434.png">
 
-## Depth Image Processing:
